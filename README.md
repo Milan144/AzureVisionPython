@@ -51,7 +51,7 @@ Permet de stocker l'url de l'image, son id, ses tags et sa description
 #### Conteneur (Object Storage)
 fayelmilan<p>
 Compte de stockage<p>
-Permet de stocker l'image
+Permet de stocker les images
 
 #### ComputerVision
 CVFayelMilan<p>
