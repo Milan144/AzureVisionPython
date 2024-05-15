@@ -12,13 +12,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:5000/images",
+					"raw": "http://milanfayel.gjf4b4axcrdyd9hm.francecentral.azurecontainer.io:5000/images",
 					"protocol": "http",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"milanfayel",
+						"gjf4b4axcrdyd9hm",
+						"francecentral",
+						"azurecontainer",
+						"io"
 					],
 					"port": "5000",
 					"path": [
@@ -44,13 +45,14 @@
 					]
 				},
 				"url": {
-					"raw": "http://127.0.0.1:5000/images",
+					"raw": "http://milanfayel.gjf4b4axcrdyd9hm.francecentral.azurecontainer.io:5000/images",
 					"protocol": "http",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"milanfayel",
+						"gjf4b4axcrdyd9hm",
+						"francecentral",
+						"azurecontainer",
+						"io"
 					],
 					"port": "5000",
 					"path": [
@@ -66,13 +68,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:5000/images/wave",
+					"raw": "http://milanfayel.gjf4b4axcrdyd9hm.francecentral.azurecontainer.io:5000/images/wave",
 					"protocol": "http",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"milanfayel",
+						"gjf4b4axcrdyd9hm",
+						"francecentral",
+						"azurecontainer",
+						"io"
 					],
 					"port": "5000",
 					"path": [
@@ -98,13 +101,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:5000/images/description",
+					"raw": "http://milanfayel.gjf4b4axcrdyd9hm.francecentral.azurecontainer.io:5000/images/description",
 					"protocol": "http",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"milanfayel",
+						"gjf4b4axcrdyd9hm",
+						"francecentral",
+						"azurecontainer",
+						"io"
 					],
 					"port": "5000",
 					"path": [
@@ -121,13 +125,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:5000/tags",
+					"raw": "http://milanfayel.gjf4b4axcrdyd9hm.francecentral.azurecontainer.io:5000/tags",
 					"protocol": "http",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"milanfayel",
+						"gjf4b4axcrdyd9hm",
+						"francecentral",
+						"azurecontainer",
+						"io"
 					],
 					"port": "5000",
 					"path": [

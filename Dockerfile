@@ -2,7 +2,6 @@ FROM python:3.8-slim-buster
 
 WORKDIR /app
 
-# Copy everything except .env
 COPY . /app
 RUN rm -rf .env
 
