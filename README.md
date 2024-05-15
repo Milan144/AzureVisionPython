@@ -44,5 +44,20 @@
 ## Description / explication de l’architecture mise en place
 
 #### Base de données 
-fayelmilandb
-Serveur flexible Azure Database pour MySQL
+fayelmilandb<p>
+Serveur flexible Azure Database pour MySQL<p>
+Permet de stocker l'url de l'image, son id, ses tags et sa description
+
+#### Conteneur (Object Storage)
+fayelmilan<p>
+Compte de stockage<p>
+Permet de stocker l'image
+
+#### ComputerVision
+CVFayelMilan<p>
+Vision par ordinateur<p>
+Permet de créer des tags et des descriptions d'une image grâce a l'ia 
+
+#### Backend
+Python Framework(Flask)<p>
+Permet de créer l'API REST charger les images ,faire des recherches ...
