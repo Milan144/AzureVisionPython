@@ -1,14 +1,20 @@
-from flask import Flask, request
+from flask import Flask, request, jsonify
 import requests
 from PIL import Image
 from io import BytesIO
 import mysql.connector
 from werkzeug.utils import secure_filename
 import os
-from flask import jsonify
-import os
+from dotenv import load_dotenv
+load_dotenv()
 
+# Create flask app
 app = Flask(__name__)
+
+# Create DB connection
+cnx = mysql.connector.connect(user=os.getenv('DB_USER'), password=os.getenv("DB_PASSWORD"), host=os.getenv('DB_HOST'), port=3306, database=os.getenv('DB_DATABASE'), ssl_disabled=True)
+# Create a cursor object to execute SQL queries
+cursor = cnx.cursor()
 
 @app.route('/image', methods=['POST'])
 def upload_images():
@@ -19,18 +25,7 @@ def upload_images():
     file.save(os.path.join('uploads', filename))
     return 'Image uploaded successfully', 200
 
-# Connect to the MySQL database
-cnx = mysql.connector.connect(
-    host=os.getenv('DB_HOST'),
-    user=os.getenv('DB_USER'),
-    password=os.getenv('DB_PASSWORD'),
-    database=os.getenv('DB_DATABASE'),
-    ssl_ca="DigiCertGlobalRootCA.crt.pem",
-    ssl_disabled=False
-)
 
-# Create a cursor object to execute SQL queries
-cursor = cnx.cursor()
 
 @app.route('/', methods=['GET'])
 def hello():
